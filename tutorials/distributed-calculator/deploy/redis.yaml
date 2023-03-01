@@ -16,7 +16,6 @@ spec:
   - name: redisPassword
     secretKeyRef:
       name: redis
-      namespace: default
       key: redis-password
 auth:
   secretStore: kubernetes
